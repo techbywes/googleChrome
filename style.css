@@ -7,9 +7,66 @@
 body {
   background-color: rgba(32, 33, 36, 1);
 }
+.nav-container {
+  display: flex;
+  float: right;
+  align-items: center;
+  margin-top: -3rem;
+  margin-right: 1rem;
+}
+
+.nav-a-1 {
+  margin-left: 20px;
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.nav-a-1:hover {
+  text-decoration: underline;
+}
+.app--menu {
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+  cursor: pointer;
+  text-decoration: none;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.app--menu:hover {
+  background-color: rgba(156, 140, 140, 0.342);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.profile--photo {
+  background-size: 32px 32px;
+  border: 0;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: 0px;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  z-index: 0;
+}
 
 #logo {
-  forced-color-adjust: none;
   height: 92px;
   width: 272px;
   display: flex;
@@ -144,13 +201,17 @@ p {
 .foot {
   text-decoration: none;
   list-style: none;
-  margin-left: 0.4rem;
+  margin-left: 1.5rem;
   color: #999da2;
   display: inline-block;
   line-height: 50px;
   font-size: 14px;
   font-family: arial, sans-serif;
 }
+.foot:hover{
+  text-decoration: underline;
+}
+
 .footer--container {
   background-color: #171717;
   display: flex;
@@ -194,7 +255,7 @@ p {
 
 .flower {
   height: 14px;
-  margin-right: -5px;
+  margin-right: -16.2px;
 }
 
 .googlee--offer {
@@ -206,3 +267,4 @@ p {
   font-size: small;
   font-family: arial, sans-serif;
 }
+
