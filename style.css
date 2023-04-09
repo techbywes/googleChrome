@@ -112,7 +112,8 @@ body {
   display: flex;
   justify-content: center;
 }
-a {
+
+.offered {
   text-decoration: none;
   list-style: none;
   margin-left: 0.4rem;
@@ -129,4 +130,37 @@ p {
   line-height: 22px;
   font-size: small;
   font-family: arial, sans-serif;
+}
+
+.footer--container {
+  bottom: 0;
+  text-align: center;
+  position: sticky;
+  flex-shrink: 0;
+}
+
+.foot {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 0.4rem;
+  color: #999da2;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+.footer--container {
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+
+
+  
 }
