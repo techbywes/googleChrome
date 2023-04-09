@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(32, 33, 36, 1);
+}
+
+#logo {
+  forced-color-adjust: none;
+  height: 92px;
+  width: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.bell {
+  display: flex;
+  justify-content: center;
+}
+
+#input_el {
+  resize: none;
+  background-color: transparent;
+  border: none;
+  color: #e8eaed;
+
+  outline: none;
+  display: flex;
+  flex: 1;
+  padding: 0px 8px 0 50px;
+  display: flex;
+
+  border: 0.1px solid rgb(116, 112, 112);
+  border-radius: 50px;
+  height: 46px;
+  font-size: 17px;
+
+  width: auto;
+  max-width: 584px;
+}
+
+#input_el:hover {
+  background-color: #303134;
+  box-shadow: 0 1px 6px 0 #171717;
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.btn-bt {
+  text-align: center;
+  margin-top: 1rem;
+}
+.search_btn {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.search_btn:hover {
+  box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
+}
+
+.feeling_btn {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.feeling_btn:hover {
+  box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
+}
+
+.img_input {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offLang--container {
+  display: flex;
+  justify-content: center;
+}
+.labguages {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 0.4rem;
+  color: #8ab4f8;
+  display: inline-block;
+  line-height: 50px;
+  font-size: small;
+  font-family: arial, sans-serif;
+}
+
+p {
+  color: #bdc1c6;
+  display: inline-block;
+  line-height: 22px;
+  font-size: small;
+  font-family: arial, sans-serif;
+}
