@@ -47,7 +47,7 @@ body {
   pointer-events: auto;
   position: absolute;
   top: 206px;
-  left: 30px;
+  left: 40px;
   margin-right: 10px;
   color: #9aa0a6;
 }
@@ -95,17 +95,17 @@ body {
   height: 22px;
   width: 22px;
   cursor: pointer;
-  cursor: pointer;
   text-decoration: none;
-
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .app--menu:hover {
-  background-color: rgba(156, 140, 140, 0.342);
-  border-radius: 50px;
-  padding: 20px;
+  background-color: rgba(232, 234, 237, 0.08);
+  border-radius: 50%;
+
+  height: 40px;
+  width: 40px;
+  padding: 10px;
 }
 
 .profile--photo {
