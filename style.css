@@ -97,7 +97,7 @@ body {
   border-radius: 50%;
   height: 39px;
   width: 39px;
-  padding: 10px;
+  padding: 8px;
 }
 
 .profile--photo {
@@ -291,7 +291,22 @@ p {
 }
 
 /* MEDIA QUERRY STARTS FROM HERE */
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
+  .bell {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .search--icon {
+    top: 206px;
+    left: 60px;
+  }
+  .mic--icon {
+    top: 206px;
+    right: 50px;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 641px) {
   .bell {
     width: 100%;
     margin: 0 auto;
