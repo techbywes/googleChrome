@@ -29,6 +29,26 @@ body {
 .nav-a-1:hover {
   text-decoration: underline;
 }
+.search--icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  pointer-events: auto;
+  position: absolute;
+  top: 200px;
+  left: 44px;
+}
+.mic--icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  pointer-events: auto;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+}
 .app--menu {
   display: inline-block;
   outline: none;
@@ -201,14 +221,14 @@ p {
 .foot {
   text-decoration: none;
   list-style: none;
-  margin-left: 1.5rem;
+  margin-left: 1.1rem;
   color: #999da2;
   display: inline-block;
   line-height: 50px;
   font-size: 14px;
   font-family: arial, sans-serif;
 }
-.foot:hover{
+.foot:hover {
   text-decoration: underline;
 }
 
@@ -267,4 +287,3 @@ p {
   font-size: small;
   font-family: arial, sans-serif;
 }
-
