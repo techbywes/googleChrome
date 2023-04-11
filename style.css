@@ -291,163 +291,76 @@ p {
 }
 
 /* MEDIA QUERRY STARTS FROM HERE */
-@media screen and (max-width: 640px) {
-  .bell {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .search--icon {
-    top: 206px;
-    left: 60px;
-  }
-  .mic--icon {
-    top: 206px;
-    right: 50px;
-    margin-left: 10px;
-  }
-}
-@media screen and (min-width: 641px) {
-  .bell {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .search--icon {
-    top: 206px;
-    left: 60px;
-  }
-  .mic--icon {
-    top: 206px;
-    right: 50px;
-    margin-left: 10px;
-  }
-}
 
-@media screen and (min-width: 712px) {
+@media screen and (max-width: 500px) {
   .bell {
     width: 100%;
     margin: 0 auto;
+   
   }
   .search--icon {
     top: 206px;
-    left: 111px;
+    left: 30px;
   }
   .mic--icon {
     top: 206px;
-    right: 100px;
-    margin-left: 10px;
+    margin-right: -20px;
   }
 }
 @media screen and (min-width: 768px) {
   .bell {
     width: 100%;
     margin: 0 auto;
+   
   }
   .search--icon {
     top: 206px;
-    left: 111px;
+    left: 120px;
   }
   .mic--icon {
     top: 206px;
-    right: 114px;
+    right: 120px;
     margin-left: 10px;
   }
 }
 
-@media screen and (min-width: 800px) {
-  .bell {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .search--icon {
-    top: 206px;
-    left: 138px;
-  }
-  .mic--icon {
-    top: 206px;
-    right: 138px;
-    margin-left: 10px;
-  }
-}
-@media screen and (min-width: 820px) {
-  .bell {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .search--icon {
-    top: 206px;
-    left: 138px;
-  }
-  .mic--icon {
-    top: 206px;
-    right: 138px;
-    margin-left: 10px;
-  }
-}
-@media screen and (min-width: 912px) {
-  .bell {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .search--icon {
-    top: 206px;
-    left: 180px;
-  }
-  .mic--icon {
-    top: 206px;
-    right: 180px;
-    margin-left: 10px;
-  }
-}
 @media screen and (min-width: 1024px) {
   .bell {
     width: 100%;
     margin: 0 auto;
+   
   }
   .search--icon {
     top: 206px;
-    left: 238px;
+    left: 244px;
   }
   .mic--icon {
     top: 206px;
-    right: 238px;
+    right: 244px;
     margin-left: 10px;
   }
 }
-
-@media screen and (min-width: 1115px) {
+@media screen and (min-width: 1200px) {
   .bell {
     width: 100%;
     margin: 0 auto;
+   
   }
   .search--icon {
     top: 206px;
-    left: 289px;
+    left: 340px;
   }
   .mic--icon {
     top: 206px;
-    right: 289px;
+    right: 340px;
     margin-left: 10px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1355px) {
   .bell {
     width: 100%;
     margin: 0 auto;
-  }
-  .search--icon {
-    top: 206px;
-    left: 368px;
-  }
-  .mic--icon {
-    top: 206px;
-    right: 368px;
-    margin-left: 10px;
-  }
-}
-@media screen and (min-width: 1366px) {
-  .bell {
-    width: 100%;
-    margin: 0 auto;
+   
   }
   .search--icon {
     top: 206px;
@@ -456,6 +369,56 @@ p {
   .mic--icon {
     top: 206px;
     right: 420px;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .bell {
+    width: 100%;
+    margin: 0 auto;
+   
+  }
+  .search--icon {
+    top: 206px;
+    left: 420px;
+  }
+  .mic--icon {
+    top: 206px;
+    right: 420px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bell {
+    width: 100%;
+    margin: 0 auto;
+   
+  }
+  .search--icon {
+    top: 206px;
+    left: 460px;
+  }
+  .mic--icon {
+    top: 206px;
+    right:  460px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .bell {
+    width: 100%;
+    margin: 0 auto;
+   
+  }
+  .search--icon {
+    top: 206px;
+    left: 1009px;
+  }
+  .mic--icon {
+    top: 206px;
+    right:  1009px;
     margin-left: 10px;
   }
 }
